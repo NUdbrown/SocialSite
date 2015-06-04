@@ -1,0 +1,7 @@
+﻿@model SocialSite.Models.ImageDisplayMod
+
+<link rel="stylesheet" type="text/css" href="~/Content/galleryStyle.css"/>
+@foreach (var image in Model.Images)
+{ 
+    <img src="@Url.Content(image)" alt="image" />
+}

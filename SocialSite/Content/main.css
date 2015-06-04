@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Kabel;
+    src: url(/Fonts/Kabel%20Bold.ttf);
+}
+
+html{
+    min-width: 1000px;
+    background-image: url(/Images/mainBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+nav ul{
+    margin-left: auto;
+    margin-right: auto;
+    background: url(/Images/navback.png) no-repeat;
+    background-size:cover; 
+}
+nav ul li{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    
+}
+nav ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: Kabel, sans;
+    color: antiquewhite;
+}
+nav ul li a:hover{
+    color: greenyellow;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+}

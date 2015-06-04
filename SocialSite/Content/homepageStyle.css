@@ -1,0 +1,74 @@
+body{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 65%;
+    background-image: url(/Images/gallBackground.jpg);
+}
+article{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+        border: 5px solid white;
+    padding: 10px;
+}
+#wel{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+#wel h1{
+    font-family: Kabel;
+    font-size: 40px;
+    color: #05B445;
+    font-style: italic;
+    text-align: center;
+}
+#wel img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%
+}
+.News{
+    font-family: Kabel;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.News h3{
+    color: #05B445;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#newsPosts{
+    width: 100%;
+    padding: 10px;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+        -webkit-column-gap: 45%; /* Chrome, Safari, Opera */
+    -moz-column-gap: 45%; /* Firefox */
+    column-gap: 45%;
+    width: 100%;
+}
+.posts p{
+    font-size: 15px;
+    word-spacing: 2px;
+    text-indent: 30px;
+    white-space: wrap;
+    color: #125A82;
+    font-weight: lighter;
+}
+.posts label{
+    font-size: 17px;
+    color: #26A4DE;
+    font-style: italic;
+}
+.posts{
+    position: relative;
+    column-span: all;
+    column-width: 100px;
+}

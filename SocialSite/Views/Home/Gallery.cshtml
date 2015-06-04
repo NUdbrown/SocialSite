@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Gallery";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" type="text/css" href="~/Content/galleryStyle.css"/>
+<link rel="stylesheet" type="text/css" href="~/Content/mainbodyStyle.css"/>
+<article class="Gall">
+    <section class="imgSection">
+        @Html.Partial("_GalleryPartial")
+    </section>
+</article>

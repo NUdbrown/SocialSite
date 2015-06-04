@@ -1,0 +1,24 @@
+.Gall{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 25px;
+    min-width: 500px;
+}
+section img{
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    display: block;  
+    width: 400px;
+    height: 228px;   
+    
+}
+.imgSection{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    vertical-align: middle;
+}

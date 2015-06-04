@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Profile";
+}
+
+<link rel="stylesheet" href="~/Content/profileStyle.css" type="text/css"/>
+<link rel="stylesheet" href="~/Content/mainbodyStyle.css" type="text/css"/>
+<div>
+    @Html.ActionLink("Second Theme", "ProfileThemeTwo")
+</div>
+<div class="ProPic">
+    <img src="../Images/WhitleyV.png" />
+    <h2>Whitley Vitiello</h2>
+</div>
+<article>
+    <section id="Bio">
+        <h3>Biography</h3>
+        <p>Hello, I am Whitley (Whit) Vitiello and I am 25 years old. I am married to my soulmate, Maxwell Vitiello. We've been together for 5 years and married 2 of those years. I just gave birth to a beautiful baby boy named Izaiah Maxwell Vitiello. My hobby has turned into my career. I am working in the Culinary field. I love my life!</p>
+    </section>
+    <section id="Fav">
+        <h3>Favorites</h3>
+        <table>
+            <tr>
+                <td>Food:</td>
+                <td>Sim City Cheesecake</td>
+            </tr>
+            <tr>
+                <td>Hobby:</td>
+                <td>Baking</td>
+            </tr>
+            <tr>
+                <td>Show:</td>
+                <td>Master Chef's Kitchen</td>
+            </tr>
+        </table>
+    </section>
+</article>
+

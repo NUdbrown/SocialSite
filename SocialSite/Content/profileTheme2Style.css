@@ -1,0 +1,61 @@
+﻿body{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 65%;
+    background-image: url(/Images/secThemeBackground.jpg);
+}
+.ProPic{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Kabel;
+    padding: 10px;
+    color: #8A7A6D;
+}
+.ProPic img{
+    width: 200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: double;
+    border-color: #A79685;
+}
+article{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+#Bio, #Fav{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Kabel; 
+    width: 50%;
+    color: #1F548C;
+    border: 5px inset #97D0B8;
+    width: 100%;
+    
+}
+#Bio, #Fav h3{
+    text-align: center;
+}
+#Bio p{
+    text-align: justify; 
+    word-spacing: 2px;
+    text-indent: 30px;
+    white-space: wrap;
+    
+}
+#Fav table{
+    text-align: center;
+    color: #1F548C;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#Fav tr, td{
+    border: 3px solid white;
+    padding: 5px;
+   
+}
