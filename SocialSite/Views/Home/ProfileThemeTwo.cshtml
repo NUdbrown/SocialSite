@@ -1,18 +1,24 @@
 ﻿
 @{
     ViewBag.Title = "ProfileThemeTwo";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutTheme2.cshtml";
 }
 
-<link rel="stylesheet" href="~/Content/profileTheme2Style.css"  type="text/css"/>
 
-<<div>
-    @Html.ActionLink("Main Theme", "Profile")
+@section ThemeLink{
+<div>
+    <h3>@Html.ActionLink("Main Theme", "Profile", "Home", new { @class = "themeLink" })</h3>
 </div>
+}
+
+@section ProfilePic{
 <div class="ProPic">
     <img src="../Images/WhitleyV.png" />
     <h2>Whitley Vitiello</h2>
 </div>
+}
+
+
 <article>
     <section id="Bio">
         <h3>Biography</h3>
@@ -36,4 +42,6 @@
         </table>
     </section>
 </article>
+
+
 

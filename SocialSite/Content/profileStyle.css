@@ -6,6 +6,10 @@ body{
     width: 65%;
     background-image: url(/Images/gallBackground.jpg);
 }
+.themeLink {
+    color:turquoise;
+    font-family: Kabel;
+}
 .ProPic{
     margin-left: auto;
     margin-right: auto;

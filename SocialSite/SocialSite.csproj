@@ -142,6 +142,7 @@
     <Content Include="Views\Home\Gallery.cshtml" />
     <Content Include="Views\Shared\_GalleryPartial.cshtml" />
     <Content Include="Views\Home\ProfileThemeTwo.cshtml" />
+    <Content Include="Views\Shared\_LayoutTheme2.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
